@@ -10,6 +10,7 @@ import json
 from concurrent.futures import ThreadPoolExecutor
 import re
 
+
 if load_dotenv('.env'):
    # for local development
    OPENAI_KEY = os.getenv('OPENAI_API_KEY')
@@ -21,6 +22,12 @@ else:
 client = OpenAI(api_key=OPENAI_KEY)
 # Some other code here are omitted for brevity
 
+"""
+# Load the OpenAI API key from .env
+load_dotenv()
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+"""
 
 # Create a new instance of the WebsiteSearchTool
 tool_websearch = WebsiteSearchTool("https://www.cpf.gov.sg/member")
