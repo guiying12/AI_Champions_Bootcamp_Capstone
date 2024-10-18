@@ -26,7 +26,6 @@ certifi==2024.8.30
 cffi==1.17.1
 charset-normalizer==3.4.0
 chroma-hnswlib==0.7.3
-chromadb==0.4.24
 cleo==2.1.0
 click==8.1.7
 cloudpickle==2.2.1
