@@ -10,3 +10,4 @@ crewai-tools
 lolviz
 asyncio
 langchain==0.2.16
+Pillow==9.5.0
